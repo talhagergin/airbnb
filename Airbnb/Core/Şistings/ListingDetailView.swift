@@ -182,6 +182,7 @@ struct ListingDetailView: View {
                         Text("Total before taxes")
                             .font(.footnote)
                         
+                        
                         Text("Oct 15 - 20")
                             .font(.footnote)
                             .fontWeight(.semibold)

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ListingItemView: View {
-
+    @State private var startDate = Date()
     var body: some View {
         VStack(spacing: 8){
             //images
@@ -32,6 +32,7 @@ struct ListingItemView: View {
                             .fontWeight(.semibold)
                         Text("night")
                             .foregroundStyle(.black)
+                        
                     }
                 }
                 
